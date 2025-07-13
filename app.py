@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load trained model
-model = joblib.load('crop_recommendation_model.pkl')
+model = joblib.load('crop_recommendation_model (1).pkl')
 
 st.set_page_config(page_title="🌱 Crop Recommendation", layout="centered")
 st.title("🌾 Smart Krishi Assistant – Crop Recommendation")
